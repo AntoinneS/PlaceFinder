@@ -78,7 +78,7 @@ def getPlaces():
     global tkvar
     place = tkvar.get()
     # Define the API Key.
-    API_KEY = 'AIzaSyBc2E44w-NuRfdEUQwxQ4S7n3_hk_Lzy0M'
+    API_KEY = ''
 
     # Define the Client
     gmaps = googlemaps.Client(key=API_KEY)
